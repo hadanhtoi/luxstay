@@ -1,0 +1,2 @@
+git remote add phuc https://github.com/hadanhtoi/luxstay.git
+git branch test_Phuc
