@@ -1,0 +1,36 @@
+.input-group__label {
+    position: relative;
+}
+.bold, .coupon__action, .coupon__code {
+    font-weight: 700;
+}
+.is-block {
+    display: block;
+}
+label {
+    cursor: default;
+}
+
+.welcome{
+    background: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);
+    padding: 3rem 0 5rem;
+    color: #fff;
+}
+.btn--radius, .btn--radius:before {
+    border-radius: 3rem;
+}
+.btn-grad--primary {
+    background-image: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);
+    background-size: 200% auto;
+}
+.account__body>* {
+    margin-top: 2rem;
+}
+
+.account {
+    padding: .975rem;
+    background: #fff;
+    box-shadow: 0 9px 46px 8px rgba(0,0,0,.02), 0 24px 38px 3px rgba(0,0,0,.04), 0 11px 15px -7px rgba(0,0,0,.05);
+    border-radius: .625rem;
+    margin-top: -3.375rem;
+}

@@ -7,12 +7,7 @@
     <title>BookingOnline.com</title>
     <link rel="stylesheet" href="css/2.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>   
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900&display=swap" rel="stylesheet">
 </head>
 <header>
     <div class="container_text-center" style="height:400px">
@@ -130,7 +125,7 @@
                                 <div>
                                     <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" style="width: 24px; height: 24px;"><g fill="none" fill-rule="evenodd"><circle pid="0" cx="12" cy="12" r="12" fill="#000" fill-opacity=".2" fill-rule="nonzero"></circle><path pid="1" fill="#FFF" d="M11.92 6c2.87 0 5.218 2.335 5.218 5.205a5.112 5.112 0 0 1-1.055 3.137c-.97 1.252-3.77 3.461-3.882 3.56a.43.43 0 0 1-.282.098.43.43 0 0 1-.281-.098c-.113-.099-2.912-2.308-3.883-3.546a5.182 5.182 0 0 1-1.055-3.15C6.7 8.335 9.05 6 11.92 6zm0 7.203a2.104 2.104 0 0 0 0-4.207 2.104 2.104 0 0 0 0 4.206z"></path></g></svg>
                                     <span><b> Lương Sơn, Hòa Bình, Việt Nam</b></span>
-                                    <a style="text-decoration: none;color: green;margin-left: 30px;" href="#">Xem bản đồ</a>
+                                    <a style="text-decoration: none;color: green;margin-left: 30px;" href="https://www.google.com/maps/place/Villa+Anne-Fleur/@44.116333,4.2794852,17z/data=!4m8!1m2!2m1!1sVilla+Anne+Fleur+-+Luxury+stay+Pool+%26+BBQ+Cottage!3m4!1s0x12b44ee44b998719:0x25b062df2abec28d!8m2!3d44.1163292!4d4.2816739?hl=vi-VN" target="_blank">Xem bản đồ</a>
                                 </div>
                             </div>
                             <div class="house_type">
@@ -267,8 +262,11 @@
                         <div class="title mt--60"><h3><b>Nội quy và chính sách về chỗ ở</b></h3></div>
                         <div style="height: 680px;">
                             <h4 class="mt--24 mb--6">Chính sách hủy phòng</h4> 
-                                <div><p><b>Linh hoạt:</b> Miễn phí hủy phòng trong vòng 48h sau khi đặt phòng thành công và trước 1 ngày so với thời gian check-in. Sau đó, hủy phòng trước 1 ngày so với thời gian check-in, được hoàn lại 100% tổng số tiền đã trả (trừ phí dịch vụ).
-                                <a href="#" target="_blank" class="color-i" style="text-decoration: none;">Chi tiết</a></p></div> 
+                                <div>
+                                    <p>
+                                        <b>Linh hoạt:</b> Miễn phí hủy phòng trong vòng 48h sau khi đặt phòng thành công và trước 1 ngày so với thời gian check-in. Sau đó, hủy phòng trước 1 ngày so với thời gian check-in, được hoàn lại 100% tổng số tiền đã trả (trừ phí dịch vụ).
+                                    </p>
+                                </div> 
                                 <div id="room-cancel-rule" class="mt--18">
                                     <div class="cancellation-rule" style="max-width: 780px;">
                                         <div class="cancellation-rule__title" style="width:780px">
@@ -340,11 +338,51 @@
             </div>
         </div>
         </div>
+        </div>
+        </div>
+
+        
+
+        <div class="container container--room">
+        <div class="col-md-4 col-xs-12" style="height: 350px;width: 350px;padding-top: 25px;padding-bottom: 25px;background-color: #f6f6f6;position: relative;top: -2600px;left:800px;">
+            <div class="room_sidebar">
+                <div class="container" style="width:355px">
+                    <div class="row">
+                        <div class="room-sidebar__pricing" style="font-size: xx-large;">
+                            <p>
+                            <span class="bold">10,000,000₫</span> 
+                            <span class="p--small">/đêm</span>
+                            </p>
+                        <div class="price-service">
+                            <div class="is-flex middle-xs between-xs"><div class="is-relative"><span style="font-size: medium;">Phí dọn dẹp</span></div> <span style="font-size: medium;position: relative;left: 250px;top: -40px;">500,000₫</span></div>
+                            <div class="is-flex middle-xs between-xs" style="position: relative;top: -50px;"><div class="is-relative"><span style="font-size: medium;">Phí dịch vụ</span></div> <span style="font-size: medium;position: relative;left: 250px;top: -45px;">1,140,000₫</span></div>
+                        </div>
+                        <a href="#"><button id="addtocart-btn" data-value="22342" class="btn btn-grad--primary px--6 btn--sm btn--full mt--6 bold rounded btn--shadow-primary" style="position: relative;width: 325px;border-left-width: 0px;border-right-width: 0px;padding-left: 0px;padding-right: 0px;background-color: background-image: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);background-image: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);top: 0px;"><svg version="1.1" viewBox="0 0 20 20" class="mr--6 svg-icon svg-fill" style="width: 20px; height: 20px;"><g fill="none" fill-rule="evenodd" transform="translate(-2 -2)"><path pid="0" d="M0 0h24v24H0z"></path><circle pid="1" cx="12" cy="12" r="10" fill="#FFF" opacity=".3"></circle><path pid="2" fill="#FFF" d="M12.42 17.158l3.037-6.073a.75.75 0 0 0-.67-1.085H12V7.177a.75.75 0 0 0-1.42-.335l-3.037 6.073A.75.75 0 0 0 8.213 14H11v2.823a.75.75 0 0 0 1.42.335z"></path></g></svg> <span style="font-weight: 700;color: white;position: relative;top: -4px;">Đặt ngay</span></button></a>
+                        </div>
+                        <div class="time">
+                            <form style="position: relative;top:-130px">
+                                Ngày checkin : 
+                                <input type="date" style="margin-left:70px;width:155px" max="2015-01-01"><br/>
+                            </form>
+                            <form style="position: relative;top:-115px" max="2022-12-12">
+                                Ngày checkout : 
+                                <input type="date" style="margin-left:60px;width:155px"><br/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
     </main>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
-<footer>
+<footer style="position: relative;top:-200px">
         <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-xs-12" style="padding: 0 0;">
@@ -439,4 +477,5 @@
             <hr>
             <h5 style="text-align: center;">Bản quyền thuộc về Công ty TNHH BookingOnline Việt Nam. Mọi hành vi sao chép đều là phạm pháp nếu không có sự cho phép bằng văn bản của chúng tôi.</h5>
 </footer>
+
 </html>
