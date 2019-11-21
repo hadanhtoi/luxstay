@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BookingOnline.com</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../img/logo1.jpg" />
+  <link rel="stylesheet" href="../../bootstrap4/css/bootstrap4.css">
+  <link rel="stylesheet" href="../../bootstrap4/css/bootstrap4.min.css">
+  <script src="../../bootstrap4/js/bootstrap4.min.js"></script>
+  <script src="../../bootstrap4/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="../../bootstrap4/js/popper.min.js"></script>
+  <link rel="stylesheet" href="../../css/styles3.css">
+  <link rel="stylesheet" href="./order.css">
+  <script src="https://kit.fontawesome.com/969a86a2ae.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="bk-header stickey-top navbar-dark bg-dark">
+    <div class="row" style="position: fixed; width: 100%;">
+      <div class="col-12 col-md-12 max-heigth flex-center">
+        <div class="header-row max-width " style="flex-direction: row;">
+          <div class="col-8 col-md-6 left-header">
+            <div class="logo-wrap flex-center">
+              <a href="../../booking.html">
+                <img class="logo-img" src="../img/logo1.jpg" alt="Booking Online">
+              </a>
+            </div>
+          </div>
+          <div class="col-4 col-md-6 flex-center">
+            <button id="menu-collapse-btn" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+              aria-expanded="true">
+            </button>
+            <div class="navbar-menu" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                  <a class="nav-link" href="#">Trang Chủ</a>
+                </li>
+
+                <li class="navbar-item">
+                  <a class="nav-link" href="#">Đăng Nhập</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="nav-link" href="#">Đăng Kí</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="nav-link" href="#">Ngôn ngữ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+  <div class="order-container">
+    <div class="order-steps-header">
+      <div class="container">
+        <span class="step-1">1. Thông tin đặt chỗ</span>
+        <span class="right-arrow-icon"></span>
+        <span class="step-2 is-active">2. Xác nhận và thanh toán</span>
+      </div>
+    </div>
+
+    <div class="order-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="info-left">
+              <div class="login-warning">
+                <div class="login-warning-title">
+                  <h4>Đăng nhập và tận hưởng quyền lợi của Thành viên!</h4>
+                </div>
+                <div class="login-warning-content">
+                  <p>
+                    Đăng ký thành viên Luxstay, trải nghiệm đột phá - Đặt phòng nhanh hơn, ưu đãi nhiều hơn nữa.
+                  </p>
+                </div>
+                <div class="login-warning-button">
+                  <button>Đăng nhập ngay</button>
+                </div>
+              </div>
+              <div class="booking-info col-ms-12">
+                <div class="title">
+                  <h3>Thông tin đặt chỗ</h3>
+                </div>
+                <div class="content">
+                  <div class="booking-content">
+                    <div class="label-input">
+                      <label>Số khách</label>
+                      <input type="text" disabled="true" value="3 khách">
+                    </div>
+                    <div class="label-input">
+                      <label>3 đêm tại Phơri's House Bamboo Forest - FAMILY ROOM</label>
+                      <div class="booking-time">
+                        <div class="row"
+                          style="justify-content: space-between;width: 100%;margin-left: 0 !important;margin-right: 0 !important;">
+                          <div class="from-div col-xs-6">
+                            <hr>
+                            <label>Nhận phòng</label>
+                            <div>17/11/2019</div>
+                            <label>chủ nhật</label>
+                          </div>
+                          <div class="to-div col-xs-6">
+                            <hr>
+                            <label>Trả phòng</label>
+                            <div>20/11/2019</div>
+                            <label>Thứ tư</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="label-input">
+                      <label>Trách nhiệm vật chất</label>
+                      <span>Khách hàng chịu mọi trách nhiệm thiệt hại về tài sản đã gây ra tại chỗ ở trong thời gian lưu
+                        trú. </span>
+                    </div> -->
+                    <!-- <div class="label-input">
+                      <label>Nội quy chỗ ở</label>
+                      <span>- Nơi ở này không phải là khách sạn. Chúng tôi hy vọng bạn tận hưởng kì nghỉ như đang ở
+                        trong chính ngôi nhà của mình với cách cử xử văn minh và lịch sự.
+                        <br>
+                        - Giữ gìn vệ sinh, bảo quản vật dụng trong nhà
+                        <br>
+                        - Không mang theo vật nuôi
+                        <br>
+                        - Không hút thuốc trong phòng, không sử dụng các chất kích thích trong khu căn hộ. Có ban công
+                        để hút thuốc
+                        <br>
+                        - Bạn được sử dụng toàn bộ nội thất và vật dụng để nấu nướng
+                        <br>
+                        - Giữ gìn vệ sinh chung, tuân thủ nội quy toà nhà
+                        <br>
+                      </span>
+                    </div> -->
+                    <div class="label-input">
+                      <label>Thông tin của bạn</label>
+                      <span class="span-child">Hãy đảm bảo thông tin bạn gửi là hoàn toàn chính xác!</span>
+                      <form action="customer-booking"></form>
+                      <div class="label-input">
+                        <div class="label-input">
+                          <label class="label-child">Tên khách hàng
+                            <!-- <span style="color: red !important; display: inline; float: none;">*</span> -->
+                          </label>
+                          <input type="text" name="customer-name" id="customer-name" readonly value="Nguyễn Văn Hoàng"
+                            style="width: 100% !important;">
+                        </div>
+                        <div class="label-input">
+                          <label>Số điện thoại
+                            <!-- <span style="color: red !important; display: inline; float: none;">*</span> -->
+                          </label>
+                          <input type="text" name="customer-phone" id="customer-phone" style="width: 100%;" readonly
+                            value="0986015614">
+                        </div>
+                        <div class="label-input">
+                          <label>Email
+                            <!-- <span style="color: red !important; display: inline; float: none;">*</span> -->
+                          </label>
+                          <input type="text" name="customer-email" id="customer-email" style="width: 100%;" readonly
+                            value="nguyenvanhoang@gmail.com">
+                        </div>
+                        <div class="label-input">
+                          <label>Quốc gia lưu trú
+                            <!-- <input type="text" name="customer-country" id="customer-country" style="width: 80%;"> -->
+                            <!-- <span style="color: red !important; display: inline; float: none;">*</span> -->
+                          </label>
+                          <input type="text" name="customer-email" style="width: 100%;" readonly value="Việt Nam">
+
+                        </div>
+                        <div class="label-input">
+                          <label for="more-info">Thông tin thêm</label>
+                          <textarea name="more-info-textarea" id="more-info-textarea" style="width: 100%;" rows="5"
+                            readonly></textarea>
+                        </div>
+                        <div class="label-input" style="flex-direction: row; justify-content: space-between;">
+                          <button id="customer-send-btn" class="button-back"
+                            onclick="location.href='./order2.html';">Quay lại</button>
+                          <button id="customer-send-btn" class="button">Tiếp theo</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="booking-attention"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-12"></div>
+          <div class="col-md-5 col-sm-12">
+            <div class="info-right">
+              <div class="right-title">
+                <h3>Chi tiết đặt phòng</h3>
+              </div>
+
+              <div class="right-body">
+                <div class="checkup-header">
+                  <div class="row">
+                    <a href="#" class="is-flex order-sm-2 col-md-12 col-sm-12 order-lg-2">
+                      <div class="room-title">
+                        <h4>Vung Tau Beach Villa 4 phòng ngủ - Biệt thự biển Hà Gia 330m2 (có phòng 5 nếu cần )</h4>
+                        <div class="room-location">
+                          <div class="location-image"></div>
+                          <span style="width: calc(100% - 25px);">Vũng Tàu, Bà Rịa Vũng Tàu, Vietnam</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="room-img order-sm-1 col-md-12 col-sm-12 order-lg-1">
+                      <img src="https://cdn.luxstay.com/rooms/18680/large/room_18680_16_1545892156.jpg"
+                        alt="Room Image">
+                      <!-- style='background-image: url("https://cdn.luxstay.com/rooms/18680/large/room_18680_16_1545892156.jpg");' -->
+                    </div>
+                  </div>
+
+                </div>
+                <div class="checkup-body">
+                  <div class="checkup-detail is-flex">
+                    <div class="checkup-right-row is-flex">
+                      <div class="row1-icon flex-center">
+                        <i class="far fa-calendar-alt"></i>
+                      </div>
+                      <div class="row1-info">
+                        <span><b>5 đêm</b>
+                          · 17/11/2019 - 22/11/2019
+                        </span>
+                      </div>
+                    </div>
+                    <div class="checkup-right-row is-flex">
+                      <div class="row1-icon flex-center">
+                        <i class="fas fa-user-alt"></i>
+                      </div>
+                      <div class="row1-info">
+                        <span> <b> 2 người lớn</b></span>
+                        <span>,<b> 1 trẻ nhỏ</b></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="checkup-price">
+                    <div class="checkup-right-row is-flex">
+                      <div class="row1-info" style="width: 50%;">
+                        <span>Giá thuê 5 đêm</span>
+                      </div>
+                      <div class="row1-info" style="width: 50%;text-align:right;">
+                        <span>5.440.000</span>
+                      </div>
+                    </div>
+                    <div class="checkup-right-row is-flex">
+                      <div class="row1-info" style="width: 50%;">
+                        <span>Phí dọn dẹp</span>
+                      </div>
+                      <div class="row1-info" style="width: 50%;text-align:right;">
+                        <span>0</span>
+                      </div>
+                    </div>
+                    <div class="checkup-right-row is-flex">
+                      <div class="row1-info" style="width: 50%;">
+                        <span>Tổng tiền: </span>
+                      </div>
+                      <div class="row1-info" style="width: 50%;text-align:right;">
+                        <span>5.440.000</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="checkup-footer">
+                  <label>Chính sách hủy phòng</label>
+                  <span>
+                    <b>Linh hoạt</b>
+                    : Miễn phí hủy phòng trong vòng 48h sau khi đặt phòng thành công và trước 1 ngày so với thời gian
+                    check-in. Sau đó, hủy phòng trước 1 ngày so với thời gian check-in, được hoàn lại 100% tổng số tiền
+                    đã
+                    trả (trừ phí dịch vụ).
+                  </span>
+                  <a href="#" target="_blank">Chi tiết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
